@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,distance=..5,tag=selected,sort=nearest,limit=1] run data merge entity @s {Tags:["mono_track","straight"],NoGravity:1,Invisible:1,Marker:1}
+tellraw @s {"text":"[Click to get command to set length]","color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Distance to next data point in 0.01's (100 per block)"}]},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @e[type=minecraft:armor_stand,distance=..5,tag=straight,sort=nearest,limit=1] train_travel "}}

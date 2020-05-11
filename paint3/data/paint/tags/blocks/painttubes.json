@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:rail",
+      "minecraft:powered_rail",
+      "minecraft:detector_rail",
+      "minecraft:activator_rail",
+      "minecraft:oak_button",
+      "minecraft:spruce_button",
+      "minecraft:birch_button",
+      "minecraft:acacia_button",
+      "minecraft:dark_oak_button",
+      "minecraft:jungle_button"
+    ]
+  }

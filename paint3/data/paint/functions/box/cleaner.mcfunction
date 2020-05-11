@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~0.5 ~ ~0.5 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["cleaner"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:cactus_green",Count:1b}]}

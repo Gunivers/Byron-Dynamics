@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,distance=..5,tag=selected,sort=nearest,limit=1] run data merge entity @s {Tags:["mono_track","tack_clockwise"],NoGravity:1,Invisible:1,Marker:1}
+tellraw @s {"text":"[Click to get command to set degrees, radius is 6 blocks]","color":"gold","hoverEvent":{"action":"show_text","value":[{"text":"Degrees to turn in 0.1's (10 per degree)"}]},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set @e[type=minecraft:armor_stand,distance=..5,tag=tack_clockwise,sort=nearest,limit=1] train_travel "}}
