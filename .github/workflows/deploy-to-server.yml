@@ -29,7 +29,7 @@ jobs:
         with:
           host: ${{ secrets.PROJECT_SERVER_IP }}
           port: 5657
-          user: contact.gunivers@gmail.com|Byron Dynamics
+          user: "contact.gunivers@gmail.com|Byron Dynamics"
           password: ${{ secrets.GUNIVERS_USER_PASSWORD }}
           remote_path: /ByronDynamics/datapacks
           ignore: .github/**,.gitignore,**/.gitignore,**/.git/**
