@@ -27,7 +27,7 @@ jobs:
       - name: deploy
         uses:  swznd/sftp-deploy@master
         with:
-          host: ${{ secrets.PROJECT_SERVER_IP }}
+          host: play.gunivers.net
           port: 5657
           user: "contact.gunivers@gmail.com|Byron Dynamics"
           password: ${{ secrets.GUNIVERS_USER_PASSWORD }}
